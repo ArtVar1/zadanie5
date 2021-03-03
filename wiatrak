@@ -1,0 +1,55 @@
+package com.company;
+import java.util.Scanner;
+import static java.lang.Math.*;
+public class Main {
+    public static void main(String[] args)
+    {
+         int SLOW = 1;
+        int MEDIUM = 2;
+        int FAST = 3;
+        int speed;
+        boolean on;
+        int radius;
+        String color;
+        public main()
+        {
+            on = true;
+            speed = SLOW;
+            radius = 6;
+            color = "black";
+        }
+        public main()
+        {
+            this.on = on;
+            this.speed = speed;
+            this.radius = radius;
+            this.color = color;
+        }
+        public void info()
+        {
+            String wlaczony;
+            String szybkosc = null;
+            if(on)
+            {
+                wlaczony = "off";
+            }
+            else
+            {
+                wlaczony = "on";
+            }
+
+            if(speed == SLOW)
+            {
+                szybkosc = "slow";
+            }
+            else if(speed == MEDIUM)
+            {
+                szybkosc = "medium";
+            }
+            else if(speed == FAST)
+            {
+                szybkosc = "fast";
+            }
+            if(on)
+        }
+    }
