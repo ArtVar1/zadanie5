@@ -2,7 +2,7 @@ package com.company;
 import java.util.Scanner;
 import static java.lang.Math.*;
 public class wiatrakk {
-    public wiatrak
+    public wiatrakk
     {
          int SLOW = 1;
         int MEDIUM = 2;
